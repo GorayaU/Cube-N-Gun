@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D Rb;
     private float Depth;
     private bool IsGrounded;
-    private Vector3 NewPos;
+    public Vector3 NewPos;
     private bool inFight;
     private float timer;
 
